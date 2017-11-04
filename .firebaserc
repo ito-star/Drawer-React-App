@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "campaign-kit",
+    "staging": "campaign-kit"
+  }
+}

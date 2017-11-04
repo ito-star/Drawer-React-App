@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="26px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>palette</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Campaign-Editor_edit_images" transform="translate(-24.000000, -197.000000)" stroke-width="1.2" stroke="#282828">
+            <g id="sidemenu" transform="translate(0.000000, 60.000000)">
+                <g id="palette">
+                    <g transform="translate(25.000000, 138.000000)">
+                        <path d="M9.40576172,24.1309615 C14.6347656,23.6155806 19.7207031,18.6934615 20.1789551,14.7701216 C20.447901,12.467532 17.4522178,12.2066137 16.9470215,9.32310013 C16.5068359,6.81064896 19.0393656,4.01997652 18.0456543,1.99814896 C17.0926384,0.0591210283 12.3625488,-0.225239716 10.5939941,0.132914581 C5.42192343,1.18032316 0,6.91636693 0,13.8199263 C0,20.7234857 4.17675781,24.6463423 9.40576172,24.1309615 Z" id="Oval-6"></path>
+                        <circle id="Oval-7" cx="11.5" cy="5.46069336" r="1.5"></circle>
+                        <circle id="Oval-7" cx="5.5" cy="9.46069336" r="1.5"></circle>
+                        <circle id="Oval-7" cx="5.5" cy="17.4606934" r="1.5"></circle>
+                        <ellipse id="Oval-8" transform="translate(13.031362, 14.265859) rotate(-315.000000) translate(-13.031362, -14.265859) " cx="13.0313618" cy="14.2658589" rx="1.69600891" ry="2.9680156"></ellipse>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

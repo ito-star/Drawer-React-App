@@ -1,0 +1,96 @@
+#welcome-dashboard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 3;
+    // background: rgba(0, 126, 229, 0.8);
+    background: linear-gradient(90deg, #05B3FF, #007EE5);
+
+    .step {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #step-1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 500px;
+        width: calc(100% - 40px);
+        margin-left: 15px;
+        padding: 40px 30px 30px 30px;
+        border-radius: 8px;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .business-type {
+        width: 100%;
+        height: 100px;
+        margin-top: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+
+        .left {
+            float: left;
+            z-index: 1;
+            max-width: 200px;
+            padding: 0 20px;
+            height: 100px;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+
+        .right {
+            float: right;
+            z-index: 0;
+            width: calc(100% - 120px);
+            height: 100px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+    }
+
+    .business-type.active {
+        background-image: url('/assets/imgs/backgrounds/active.png');
+        background-repeat: no-repeat;
+        background-position: top 10px right 10px;
+
+        .right {
+            border: 2px solid #4CA161;
+            border-left: none;
+        }
+    }
+
+    .style-container {
+        width: 300px;
+        height: 250px;
+        display: inline-block;
+        margin: 10px;
+        padding: 20px 20px 0 20px;
+        border-radius: 8px;
+        background: white;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+        color: #7C94B7;
+        
+        img {
+            width: 260px;
+            height: 180px;
+            object-fit: cover;
+        }
+    }
+
+    .style-container.active {
+        transition: all .2s;
+        width: 310px;
+        height: 260px;
+        border-radius: 13px;
+        border: 5px solid #48AF46;
+        box-shadow: 0 8px 15px rgba(72, 175, 70, 0.1);
+        background-image: url('/assets/imgs/backgrounds/active.png');
+        background-repeat: no-repeat;
+        background-position: bottom 10px right 10px;
+    }
+}

@@ -1,0 +1,24 @@
+.logo-matrix {
+
+    position: relative;
+    width: 100%;
+    margin-bottom: 140px;
+
+    .logo-item {
+        position: relative;
+        width: calc(25% - 10px);
+        margin: 5px;
+        padding-top: calc(25% - 10px);
+        overflow: hidden;
+        box-shadow: 1px 1px 3px #ccc;
+        background: #44c0ff;
+        display: block;
+        float: left;
+    }
+
+    .logo-item:nth-of-type(4n+1) {
+        clear: both;
+    }
+
+}
+

@@ -1,0 +1,30 @@
+.fixed-footer {
+    position: fixed;
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: white;
+    background-color: #4a90e2;
+
+    p {
+        width: 100px;
+        display: inline-block;
+    }
+
+    svg {
+        width: calc(100% - 200px);
+        display: inline-block;
+    }
+
+    button {
+        width: 100px;
+        display: inline-block;
+        border: none;
+        background: transparent;
+        font-size: 20px;
+    }
+
+}

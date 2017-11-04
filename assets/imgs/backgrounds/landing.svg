@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="763px" viewBox="0 0 1440 763" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="82.375%" x2="0%" y2="12.2890621%" id="linearGradient-1">
+            <stop stop-color="#007EE5" offset="0%"></stop>
+            <stop stop-color="#05B3FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="38.6683732%" y1="97.5828332%" x2="64.5481462%" y2="8.94561564%" id="linearGradient-2">
+            <stop stop-color="#007EE5" offset="0%"></stop>
+            <stop stop-color="#05B3FF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="1245" y="161" width="245" height="483" rx="8"></rect>
+        <filter x="-2.9%" y="-1.0%" width="105.7%" height="102.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="1292" y="680" width="250" height="111" rx="8"></rect>
+        <filter x="-2.8%" y="-4.5%" width="105.6%" height="112.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="980" y="341" width="245" height="416" rx="8"></rect>
+        <filter x="-2.9%" y="-1.2%" width="105.7%" height="103.4%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Olga" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-Screen-1">
+            <g id="Group" transform="translate(-18.000000, -52.000000)">
+                <path d="M9,747.019449 C167.49934,667.376548 467.096067,677.597843 907.790179,777.683335 C1348.48429,877.768828 1528.70645,641.207716 1448.45665,68 L9,80.2632833 L9,747.019449 Z" id="Path-10" fill="url(#linearGradient-1)"></path>
+                <path d="M0,679.019449 C159.586441,599.376548 461.238015,609.597843 904.95472,709.683335 C1348.67143,809.768828 1530.12967,573.207716 1449.32947,0 L0,12.2632833 L0,679.019449 Z" id="Path-10-Copy" fill="url(#linearGradient-2)"></path>
+                <g id="Rectangle-26-Copy" transform="translate(1367.500000, 402.500000) rotate(-9.000000) translate(-1367.500000, -402.500000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="Rectangle-26-Copy-2" transform="translate(1417.000000, 735.500000) rotate(-9.000000) translate(-1417.000000, -735.500000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <g id="Rectangle-26" transform="translate(1102.500000, 549.000000) rotate(-9.000000) translate(-1102.500000, -549.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

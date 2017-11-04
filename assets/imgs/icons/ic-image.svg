@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>img</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Campaign-Editor_edit_images" transform="translate(-25.000000, -319.000000)" stroke-width="2" stroke="#FFFFFF">
+            <g id="sidemenu" transform="translate(0.000000, 60.000000)">
+                <g id="img">
+                    <g transform="translate(25.000000, 259.000000)">
+                        <rect id="Rectangle-10" x="1" y="1" width="19" height="19" rx="2"></rect>
+                        <circle id="Oval-9" cx="13.5" cy="7.5" r="2.5"></circle>
+                        <path d="M1.19482422,16.2067871 L6.80029297,9.82531738" id="Line-4" stroke-linecap="round"></path>
+                        <path d="M6.80029297,16.8253174 L12.800293,9.82531738" id="Line-4" stroke-linecap="round" transform="translate(9.800293, 13.325317) scale(-1, 1) translate(-9.800293, -13.325317) "></path>
+                        <path d="M10.800293,19.8253174 L16.800293,12.8253174" id="Line-4" stroke-linecap="round"></path>
+                        <path d="M16.800293,16.2614746 L19.845459,12.8253174" id="Line-4" stroke-linecap="round" transform="translate(18.322876, 14.543396) scale(-1, 1) translate(-18.322876, -14.543396) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

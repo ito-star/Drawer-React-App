@@ -1,0 +1,139 @@
+.landing {
+    color: white;
+    
+    .backImg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .email-input {
+        input {
+            position: relative;
+            float: left;
+            width: calc(100% - 130px);
+            height: 40px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        button {
+            position: relative;
+            float: right;
+            width: 130px;
+            padding: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            background-color: #00B691;
+        }
+    }
+
+    .logos {
+        img {
+            margin-top: 400px;
+            height: 100px;
+            object-position: center center;
+            object-fit: none;
+        }
+    }
+
+    button.buyNow {
+        width: 145px;
+        height: 40px;
+        margin: 20px 0;
+        padding: 0;
+        border-radius: 20px;
+        color: white;
+        font-size: 12px;
+        text-align: center;
+        background-color: #00B691;
+        box-shadow: 0 11px 22px rgba(0, 182, 145, .29);
+    }
+
+    #l-1-ph {
+        position: relative;
+        max-width: 366px;
+        width: 100%;
+        z-index: 10;
+    }
+
+    #l-1-bg {
+        position: absolute;
+        max-width: 357px;
+        width: 100%;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        z-index: -1;
+    }
+
+    #l-2-ph1 {
+        position: relative;
+        max-width: 366px;
+        width: 80%;
+        margin-left: 20%;
+        z-index: 10;
+    }
+
+    #l-2-ph2 {
+        position: absolute;
+        max-width: 295px;
+        width: 65%;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: -1;
+    }
+
+    .global-features {
+        position: relative;
+        height: 600px;
+
+        img.background {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+    }
+
+    #plan_free {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        width: 50%;
+        padding: 50px 30px;
+        background: white;
+        z-index: 0;
+        box-shadow: 0 9px 19px rgba(0,0,0, .07);
+    }
+
+    #plan_premium {
+        position: relative;
+        left: 50%;
+        width: 50%;
+        padding: 50px 30px;
+        background: white;
+        z-index: 10;
+        box-shadow: 0 9px 19px rgba(0,0,0, .07);
+    }
+
+    @media (max-width: 991px) {
+        .global-features {
+            position: relative;
+            height: 700px;
+
+            img.background {
+                position: absolute;
+                left: 0;
+                width: 100%;
+                height: 700px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+

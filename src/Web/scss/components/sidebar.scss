@@ -1,0 +1,148 @@
+#sideBar {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    width: 360px;
+    z-index: 11;
+    text-align: center;
+    background: white;
+    user-select: none;
+
+    #tools {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 60px;
+        height: 100%;
+        background: white;
+        box-shadow: 0 2px 9px rgba(0, 0, 0, .09);
+        z-index: 3;
+
+        .tool {
+            width: 60px;
+            height: 70px;
+            line-height: 70px;
+            img {
+                width: 60px;
+                object-fit: none;
+            }
+        }
+
+        .tool.active {
+            background: #4089F0;
+        }
+    }
+
+    #toolPanel {
+        position: absolute;
+        left: 60px;
+        width: 300px;
+        height: 100%;
+        color: #282828;
+        padding: 5px;
+        box-shadow: 0 2px 9px rgba(0, 0, 0, .09);
+        z-index: 2;
+
+        .item {
+            display: inline-block;
+            background: #F7F7F7;
+            cursor: pointer;
+            user-select: none;
+
+            img {
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .item.template {
+            width: calc(50% - 22px);
+        }
+
+        .item.template:nth-child(odd) {
+            margin-right: 14px;
+            margin-bottom: 14px;
+        }
+
+        .item.color {
+            width: 80px;
+            height: 55px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+
+        .item.color:nth-child(3n+1) {
+            margin-left: 15px;
+        }
+
+        .item.color:nth-child(3n) {
+            margin-right: 15px;
+        }
+
+        .masonry-container{
+            width: 290px;
+            margin-top: 10px;
+            box-sizing: border-box;
+            p{
+                text-align: center;
+                padding: 4px;
+                font-family: monospace;
+                background: #222;
+                color: #efefef;
+            }
+        }
+        .masonry{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-content: stretch;
+            width: 100%;
+            margin: auto;
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: stretch;
+            flex-grow: 1;
+        }
+        .tile{
+            margin: 4px;
+            img{
+                box-shadow: 0 1px 1px 2px rgba(0,0,0, .15);
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+
+        .item.image {
+            float: left;
+            width: 80px;
+            box-sizing: border-box;
+            border-color: hsla(0, 0%, 0%, 0.5);
+            border-radius: 5px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .item.shape {
+            width: 50px;
+            height: 50px;
+            background: none;
+            margin-right: 20px;
+        }
+
+        .item.shape:nth-child(4n+1) {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .item.shape:nth-child(4n) {
+            margin-right: 10px;
+        }
+
+    }
+}

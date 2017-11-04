@@ -1,0 +1,33 @@
+.sizeBox {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid $c-Border;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1c1c1c;
+    background: #c3c3c3;
+    user-select: none;
+    cursor: pointer;
+
+    .context {
+        width: 188px;
+        background: #f5f5f5;
+        border: 1px solid $c-Border;
+        border-radius: 5px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.sizeBox.active {
+    .context {
+        background-image: url('/assets/imgs/backgrounds/active.png');
+        background-repeat: no-repeat;
+        background-position: top 10px right 10px;
+    }
+}

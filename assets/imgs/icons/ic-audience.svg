@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 44 28" xml:space="preserve">
+	<g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav-Logged-In" transform="translate(-303.000000, -79.000000)" fill-rule="nonzero" fill="#7C94B7">
+            <g id="ic_group_48px" transform="translate(303.000000, 79.000000)">
+                <path d="M30,12 C33.31,12 35.98,9.31 35.98,6 C35.98,2.69 33.31,0 30,0 C26.69,0 24,2.69 24,6 C24,9.31 26.69,12 30,12 Z M14,12 C17.31,12 19.98,9.31 19.98,6 C19.98,2.69 17.31,0 14,0 C10.69,0 8,2.69 8,6 C8,9.31 10.69,12 14,12 Z M14,16 C9.33,16 0,18.34 0,23 L0,28 L28,28 L28,23 C28,18.34 18.67,16 14,16 Z M30,16 C29.42,16 28.77,16.04 28.07,16.11 C30.39,17.78 32,20.03 32,23 L32,28 L44,28 L44,23 C44,18.34 34.67,16 30,16 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

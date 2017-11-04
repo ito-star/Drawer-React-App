@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="Toolbar-Image-ON">
+            <path d="M6,6 L1.99508929,6 C0.892622799,6 0,6.8932319 0,7.99508929 L0,22.0049107 C0,23.1073772 0.893231902,24 1.99508929,24 L16.0049107,24 C17.1073772,24 18,23.1067681 18,22.0049107 L18,12.9975446 L18,18 L16,18 L16,22 L2,22 L2,8 L6,8 L6,6 Z" id="Combined-Shape"></path>
+            <path d="M6,1.99508929 C6,0.893231902 6.8926228,0 7.99508929,0 L22.0049107,0 C23.1067681,0 24,0.892622799 24,1.99508929 L24,16.0049107 C24,17.1067681 23.1073772,18 22.0049107,18 L7.99508929,18 C6.8932319,18 6,17.1073772 6,16.0049107 L6,1.99508929 Z M8,2 L22,2 L22,16 L8,16 L8,2 Z" id="Combined-Shape"></path>
+            <polygon id="Fill-3" points="12 10 14 13 17 9 21 14 9 14"></polygon>
+            <circle id="Oval" cx="17.5" cy="5.5" r="1.5"></circle>
+        </g>
+    </g>
+</svg>

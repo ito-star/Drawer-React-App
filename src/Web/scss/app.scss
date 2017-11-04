@@ -1,0 +1,34 @@
+@import "variable.scss";
+@import "common.scss";
+@import "animations.scss";
+@import "components/header.scss";
+@import "components/sidebar.scss";
+@import "components/toolbar.scss";
+@import "components/slider.scss";
+@import "components/footer.scss";
+@import "components/logo.scss";
+@import "components/selectionbox.scss";
+@import "components/workingsheet.scss";
+@import "pages/landing.scss";
+@import "pages/user.scss";
+@import "pages/welcome.scss";
+@import "pages/sizeSelect.scss";
+@import "pages/editor/campaign.scss";
+@import "pages/dashboard.scss";
+@import '../../../node_modules/react-tabs/style/react-tabs.scss';
+
+body {
+  font-size: 12px;
+
+  .background-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+}

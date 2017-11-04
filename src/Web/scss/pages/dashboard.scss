@@ -1,0 +1,53 @@
+#dashboard {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #F7F7F7;
+
+    ul {
+        align-items: flex-end;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+        font-size: 95%;
+        list-style-type: none;
+        overflow: hidden;
+        transition: filter .3s linear;
+
+        li {
+            margin: .8em 3ex 0 3ex;
+            text-align: center;
+            transition: transform .5s ease,opacity .3s linear;
+
+            img {                
+                cursor: pointer;
+                display: block;
+                max-width: 120px;
+                max-height: 120px;
+                margin: 0 auto;
+                background: rgba(255,255,255,.22);
+                box-shadow: 3px 3px 5px rgba(0,0,0,.15);
+            }
+            .name {
+                font-size: 14px;
+                line-height: 20px;
+                margin: 10px 0 0 0;
+            }
+            .size {
+                opacity: 0;
+                font-size: 90%;
+                margin: 0;
+                padding-top: 4px;
+                transition: opacity .15s linear;
+            }
+        }
+        li:hover {
+            .size {
+                opacity: 1;
+            }
+        }
+    }
+}
